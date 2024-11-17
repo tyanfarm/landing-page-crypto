@@ -1,63 +1,94 @@
-<div class="bg-gray-900 text-white">
-    <div class="max-w-5xl mx-auto px-6 py-16 text-center">
-        <h1 class="text-4xl font-bold mb-12">Discover the benefits of our app</h1>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
-            <!-- Popular Cryptos -->
-            <div class="flex items-start gap-4">
-                <div class="text-3xl text-yellow-400">₿</div>
+<div class="bg-[#23202A] text-white py-20 px-6 md:px-20">
+    <!-- Heading -->
+    <h2 class="text-center text-4xl font-semibold mb-12">Discover the benefits of our app</h2>
+
+    <!-- Main Content: Features + Image -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center pt-16">
+        <!-- Features Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Feature 1 -->
+            <div class="flex items-start space-x-4">
+                <div class="bg-[#4e4063] p-4 rounded-full">
+                    <img src="assets/images/bitcoin-icon.png" alt="Popular cryptos" class="h-6 w-6">
+                </div>
                 <div>
-                    <h2 class="text-xl font-bold">Popular cryptos</h2>
-                    <p class="text-gray-400">Explore seamless access to various top cryptocurrencies, including Bitcoin,
-                        Ethereum, Binance, Cardano and more.</p>
+                    <h3 class="text-xl font-semibold mb-2">Popular cryptos</h3>
+                    <p class="text-gray-400">
+                        Explore seamless access to various top cryptocurrencies, including Bitcoin, Ethereum, Binance,
+                        Cardano, and
+                        more.
+                    </p>
                 </div>
             </div>
-            <!-- Fee-free Exchanges -->
-            <div class="flex items-start gap-4">
-                <div class="text-3xl text-yellow-400">↔</div>
+
+            <!-- Feature 2 -->
+            <div class="flex items-start space-x-4">
+                <div class="bg-[#4e4063] p-4 rounded-full">
+                    <img src="https://cdn-icons-png.flaticon.com/512/725/725024.png" alt="Fee-free exchanges"
+                        class="h-6 w-6">
+                </div>
                 <div>
-                    <h2 class="text-xl font-bold">Fee-free exchanges</h2>
-                    <p class="text-gray-400">Start trading with us today and enjoy your initial three exchanges without
-                        incurring any fees.</p>
+                    <h3 class="text-xl font-semibold mb-2">Fee-free exchanges</h3>
+                    <p class="text-gray-400">
+                        Start trading with us today and enjoy your initial three exchanges without incurring any fees.
+                    </p>
                 </div>
             </div>
-            <!-- Transparent Fees -->
-            <div class="flex items-start gap-4">
-                <div class="text-3xl text-yellow-400">$</div>
+
+            <!-- Feature 3 -->
+            <div class="flex items-start space-x-4">
+                <div class="bg-[#4e4063] p-4 rounded-full">
+                    <img src="https://cdn-icons-png.flaticon.com/512/806/806363.png" alt="Transparent fees"
+                        class="h-6 w-6">
+                </div>
                 <div>
-                    <h2 class="text-xl font-bold">Transparent fees</h2>
-                    <p class="text-gray-400">Farewell unexpected charges! KriptoRealm guarantees transparency through
-                        detailed breakdowns.</p>
+                    <h3 class="text-xl font-semibold mb-2">Transparent fees</h3>
+                    <p class="text-gray-400">
+                        Farewell unexpected charges! KriptoRealm guarantees transparency through detailed breakdowns.
+                    </p>
                 </div>
             </div>
-            <!-- Secure Platform -->
-            <div class="flex items-start gap-4">
-                <div class="text-3xl text-yellow-400">🔒</div>
+
+            <!-- Feature 4 -->
+            <div class="flex items-start space-x-4">
+                <div class="bg-[#4e4063] p-4 rounded-full">
+                    <img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" alt="Secure platform"
+                        class="h-6 w-6">
+                </div>
                 <div>
-                    <h2 class="text-xl font-bold">Secure platform</h2>
-                    <p class="text-gray-400">To ensure client security and fund protection, we offer secure offline
-                        storage and conduct regular security evaluations.</p>
+                    <h3 class="text-xl font-semibold mb-2">Secure platform</h3>
+                    <p class="text-gray-400">
+                        To ensure client security and fund protection, we offer secure offline storage and conduct
+                        regular security
+                        evaluations.
+                    </p>
                 </div>
             </div>
+
+            <!-- App Download Section -->
+                <div
+                    class="cursor-pointer flex flex-col items-center space-y-4 md:flex-row md:justify-center md:space-x-4 md:space-y-0">
+                    <!-- App Store Button -->
+                    <div
+                        class="flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-sm text-black py-3 px-6 rounded-lg shadow-md whitespace-nowrap min-w-[150px]">
+                        <img src="assets/images/apple-icon.png" alt="App Store" class="h-5 mr-2">
+                        App store
+                    </div>
+
+                    <!-- Google Play Button -->
+                    <div
+                        class="flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-sm text-black py-3 px-6 rounded-lg shadow-md whitespace-nowrap min-w-[150px]">
+                        <img src="assets/images/ggplay-icon.png" alt="Google Play" class="h-5 mr-2">
+                        Google play
+                    </div>
+                </div>
         </div>
-        <div class="mt-12 flex justify-center gap-4">
-            <button class="px-6 py-3 bg-yellow-400 text-black font-bold rounded-lg">App Store</button>
-            <button class="px-6 py-3 bg-yellow-400 text-black font-bold rounded-lg">Google Play</button>
-        </div>
-        <!-- Illustration -->
-        <div class="relative mt-12">
-            <div
-                class="absolute inset-0 w-64 h-64 rounded-full bg-gradient-to-br from-purple-700 to-yellow-400 blur-lg opacity-30 mx-auto">
-            </div>
-            <div class="relative flex flex-col items-center justify-center p-8 bg-gray-800 rounded-lg shadow-lg">
-                <div class="flex flex-col items-center">
-                    <div class="text-yellow-400 font-bold text-lg">BTC/USD</div>
-                    <div class="text-white text-2xl">$66,669.10</div>
-                </div>
-                <div class="mt-6 flex flex-col items-center">
-                    <div class="text-yellow-400 font-bold text-lg">ETH/USD</div>
-                    <div class="text-white text-2xl">$3,413.56</div>
-                </div>
-            </div>
+
+        <!-- Image Section -->
+        <div class="flex justify-center">
+            <img src="assets/images/benefit.png" alt="App screenshot" class="w-[450px] h-auto rounded-lg">
         </div>
     </div>
+
+
 </div>
