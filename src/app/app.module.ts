@@ -11,6 +11,10 @@ import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { NetworkComponent } from './components/network/network.component';
 import { FeaturesComponent } from './components/features/features.component';
+import { WhyComponent } from './components/why/why.component';
+import { CtaComponent } from './components/cta/cta.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { BenefitsComponent } from './components/benefits/benefits.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { FeaturesComponent } from './components/features/features.component';
     HeaderComponent,
     IntroductionComponent,
     NetworkComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    WhyComponent,
+    CtaComponent,
+    FooterComponent,
+    BenefitsComponent
   ],
   imports: [
     BrowserModule,
