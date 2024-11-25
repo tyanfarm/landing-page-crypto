@@ -1,0 +1,11 @@
+.carousel-container.animate-on-scroll 
+    owl-carousel-o([options]="customOptions")
+        ng-template(carouselSlide *ngFor="let slide of slideList")
+            .slider-container
+                .carousel-img 
+                    img([src]="slide.img")
+                .slide-content 
+                    h3.slide-title {{slide.title}}
+                    p.slide-description {{slide.description}} 
+                .read-more-btn 
+                    button(mat-raised-button) Read More 
